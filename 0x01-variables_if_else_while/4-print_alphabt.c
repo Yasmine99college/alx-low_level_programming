@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 /* more headers goes there */
 
@@ -10,13 +11,15 @@ int main(void)
 	{
 		if(alph=='q'||alph=='e')
 		{
-			continue;
+			alph++;
 		}
 		else
 		{
 			putchar(alph);
-			putchar('\n');
+			alph++;
+			
 		}
 	}
+	putchar('\n');
 	return (0);
 }

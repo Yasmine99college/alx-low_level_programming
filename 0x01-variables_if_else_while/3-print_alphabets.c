@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 /* more headers goes there */
 
@@ -12,8 +13,7 @@ int main(void)
 		putchar(min);
 		min++;
 	}
-	putchar('\n');
-	while(max<='Z')
+	while(cap<='Z')
 	{
 		putchar(cap);
 		cap++;

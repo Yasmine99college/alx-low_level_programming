@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 /* more headers goes there */
 
@@ -6,7 +7,7 @@
 int main(void)
 {
 	char alph='a';
-	while(alph<=z)
+	while(alph<='z')
 	{
 		putchar(alph);
 		alph++;
